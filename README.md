@@ -19,7 +19,32 @@ AR Bus Ticketing System is a PHP-based web application that allows administrator
 
 ### Installation
 
-1. Clone the repository:
+1. **Configure your web server:**
 
-   ```bash
-   git clone https://github.com/rohandafarefr/ar-bus.git
+   Set up your web server to serve the project from the desired directory.
+
+2. **Import the database schema:**
+
+   - Use the provided `ar_bus.sql` file to create the necessary tables.
+
+3. **Update the database connection details:**
+
+   - Open `includes/db.php` and modify the database connection parameters:
+
+     ```php
+     $servername = "localhost";
+     $username = "your-username";
+     $password = "your-password";
+     $database = "ar_bus";
+     ```
+
+4. **Access the application:**
+
+   - Open your web browser and navigate to the project's URL.
+
+## Usage
+
+- Log in as an administrator to access the admin dashboard.
+- Use the navigation menu to perform various actions, such as managing buses, viewing booking history, etc.
+
+
