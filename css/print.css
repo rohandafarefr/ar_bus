@@ -1,0 +1,85 @@
+body{
+    background: #000000;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+.header nav{
+    display: flex;
+    flex-direction: row;
+}
+.header nav a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+}
+.header nav a button{
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header nav a button:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.container{
+    background: #000000;
+    border: 1px dashed #fff;
+    color: #fff;
+    width: 400px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.container h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container p{
+    padding: 5px;
+}
+.container a{
+    text-decoration: none;
+    color: #0f67ff;
+    background: #fff;
+    border: 1px solid #fff;
+    width: fit-content;
+    height: 30px;
+    padding: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.container #printButton{
+    text-decoration: none;
+    color: #0f67ff;
+    background: #fff;
+    border: 1px solid #fff;
+    width: fit-content;
+    height: 30px;
+    padding: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}

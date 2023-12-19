@@ -1,0 +1,103 @@
+body{
+    background: #000000;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #fff;
+}
+.header nav{
+    display: flex;
+    flex-direction: row;
+}
+.header nav a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 10px;
+}
+.header nav a button{
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.header nav a button:hover{
+    background: #000;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.container{
+    width: 80%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    padding: 20px;
+    margin-top: 100px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #000;
+    color: #fff;
+}
+
+td {
+    background-color: #333;
+    color: #fff;
+}
+
+.delete-button {
+    background-color: #ff4040;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background-color: #cc0000;
+}
+
+.print-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.print-button:hover {
+    background-color: #45a049;
+}
