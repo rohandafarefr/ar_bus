@@ -1,6 +1,6 @@
 # AR Bus Ticketing System
 
-AR Bus Ticketing System is a PHP-based web application that allows administrators to manage bus bookings, view booking history, and perform CRUD operations on buses and routes.
+AR Bus Ticketing System is a PHP-based web application that allows administrators to manage bus bookings, view booking history, and perform CRUD operations on buses and routes. 
 
 ## Features
 
